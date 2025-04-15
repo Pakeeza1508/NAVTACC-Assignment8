@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: "Playfair Display";
+}
+body{
+    margin: 0 80px;
+    background-color: black;
+}
+.banner{
+    height: 290px;
+    background-color: #aa4701f8;
+    padding: 65px;
+}
+section{
+    background-color: #E8AD66;
+    height: 400px;
+}
+h1{
+    text-align: center;
+    font-size: 59px;
+    text-transform: uppercase;
+    color: black;   
+    font-weight: bolder;
+}
+/* links sart from here */
+nav a {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #06a106;
+    color: green;
+    text-decoration: none;  
+  }
+ul{
+    margin-left: 296px;
+    padding: 30px;
+}
+ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+  
+h2{
+    font-size: 43px;
+    text-transform: capitalize;
+    color: black;  
+    font-style: "Playfair Display";
+    font-weight: bolder;
+}
+p{
+    line-height: 40px;
+    font-size: 20px;
+    color: #6d2204;
+    font-style: "Playfair Display";
+    font-weight: 400;
+}
+h2 + p + p + p{
+    color: black;
+}
